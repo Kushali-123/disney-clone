@@ -7,7 +7,7 @@ export default configureStore({
    },
    middleware: (getDefaultMiddleware) => getDefaultMiddleware({
     serializableCheck: false,
-   }),
+   })
 
 
 });

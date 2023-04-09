@@ -57,6 +57,7 @@ max-width: 650px;
 width: 100%;
 display: flex;
 flex-direction: column;
+align-items: center;
 `;
 
 const CTALogoOne = styled.img`
@@ -81,6 +82,7 @@ border-radius: 4px;
 
 &: hover{
     background-color: #0483ee;
+    cursor: pointer;
 }
 
 `;
